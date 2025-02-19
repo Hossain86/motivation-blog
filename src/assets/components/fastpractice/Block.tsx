@@ -53,7 +53,7 @@ function Block({ articles }: Props) {
             <p><strong>Author:</strong> {article.author}</p>
 
             {/* Navigate to Blog Details page */}
-            <button className="block-button" onClick={() => navigate(`/blog/${article.id}`)}>
+            <button className="ctaButton" onClick={() => navigate(`/blog/${article.id}`)}>
               Show More
             </button>
 
