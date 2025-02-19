@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 import "./Block.css";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
