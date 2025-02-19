@@ -4,7 +4,7 @@ const blogData=[
     "heading": "Creative Coding: Turning Ideas into Reality",
     "imgsrc": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4",
     "details": "Coding is not just about solving problems; it's about creating something new. This blog introduces creative coding projects that combine art, design, and technology. From generative art to interactive websites, these projects will inspire you to think outside the box and turn your ideas into reality. Whether you're a beginner or an experienced coder, this blog will spark your creativity and help you explore the artistic side of programming.  Creative coding allows you to express yourself through code, creating unique and engaging experiences.  This blog provides inspiration and resources for those interested in exploring the artistic potential of programming. It is widely used in:🎨 Digital art – Generative visuals, animations, and interactive installations🎭 Performances – Live visuals synchronized with music🕹 Game development – Experimental mechanics and AI-driven narratives🧩 Data visualization – Making complex data beautiful and understandable. 💎 Pro Tips for Creative Coders🔹 Break down ideas into small experiments – Don’t aim for perfection from the start!🔹 Use randomness – Controlled chaos often creates the best results!🔹 Combine multiple techniques – Mix motion, color shifts, and user interaction for depth.🔹 Keep a sketchbook – Write down ideas and plan before coding.🔹 Have fun! – Creative coding is about exploration, not just efficiency. ",
-    "category": "Fun Coding",
+    "category": "Technology",
     "date_created": "2023-11-20",
     "author": "Emily Davis"
   },
@@ -31,7 +31,7 @@ const blogData=[
     "heading": "Fun Coding Projects to Boost Your Skills",
     "imgsrc": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
     "details": "Coding doesn't have to be boring! This blog introduces fun and creative coding projects that will help you sharpen your skills while having a great time. From building a personal website to creating a simple game, these projects are perfect for beginners and experienced coders alike. Discover how coding can be both a productive and enjoyable hobby, and get inspired to start your next project today.  Building a personal website is a great way to showcase your skills and express your creativity.  You can design your own layout, choose your own colors, and add interactive elements to make it unique.  Creating a simple game is another fun way to learn coding concepts.  You can start with a basic game like Tic-Tac-Toe or Snake and gradually add more features as you improve your skills.  These projects not only teach you valuable coding skills but also help you develop your problem-solving abilities and think creatively.  The satisfaction of seeing your code come to life and creating something functional and visually appealing is incredibly rewarding.  So, grab your keyboard, choose a project that interests you, and start coding!  You'll be surprised at how much you can learn and how much fun you can have along the way.",
-    "category": "Fun Coding",
+    "category": "Technology",
     "date_created": "2023-10-15",
     "author": "Emily Davis"
   },
@@ -40,7 +40,7 @@ const blogData=[
     "heading": "Why Traveling is the Best Investment in Yourself",
     "imgsrc": "https://images.unsplash.com/photo-1503220317375-aaad61436b1b",
     "details": "Traveling is not just about visiting new places; it's about expanding your horizons and gaining new perspectives. Whether it's a weekend getaway or an international adventure, traveling helps you break free from routine, learn about different cultures, and recharge your mind. This blog dives into the benefits of traveling, including improved creativity, reduced stress, and enhanced problem-solving skills. Discover why investing in travel is investing in yourself.  Stepping outside of your comfort zone and immersing yourself in a new environment can challenge your assumptions and broaden your understanding of the world.  You'll encounter different customs, try new foods, and meet people from diverse backgrounds.  These experiences can enhance your empathy, improve your communication skills, and make you a more well-rounded individual.  Traveling can also be a great way to de-stress and escape the pressures of everyday life.  Exploring new landscapes, breathing fresh air, and disconnecting from technology can have a calming effect on your mind and body.  Whether you're exploring ancient ruins, hiking through mountains, or simply relaxing on a beach, traveling can help you recharge and return home feeling refreshed and rejuvenated.  It's an investment in your well-being that will pay dividends for years to come.",
-    "category": "Benefits of Tours",
+    "category": "Mental Health & Emotional Motivation",
     "date_created": "2023-10-05",
     "author": "Jane Smith"
   },
@@ -55,10 +55,10 @@ const blogData=[
   },
   {
     "id": 7,
-    "heading": "Time Management Tips for Busy Students",
+    "heading": "Study Motivation Tips for Busy Students",
     "imgsrc": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b",
     "details": "Balancing academics, extracurricular activities, and personal life can be challenging for students. This blog provides effective time management strategies to help you stay organized and productive. Learn how to prioritize tasks, set realistic goals, and avoid procrastination. With these tips, you can make the most of your time and achieve a healthy balance between work and play. Effective time management is not just about getting things done; it's about creating a fulfilling and balanced life.  By mastering time management skills, you can reduce stress, improve your academic performance, and have more time for the things you enjoy.  This blog provides practical tips and strategies that you can implement immediately to take control of your time and achieve your goals.",
-    "category": "Time Management",
+    "category": "Study Motivation",
     "date_created": "2023-10-30",
     "author": "David Lee"
   },
@@ -76,7 +76,7 @@ const blogData=[
     "heading": "The Science of Habits: How to Build Good Ones and Break Bad Ones",
     "imgsrc": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3",
     "details": "Habits shape our lives more than we realize. This blog dives into the science of habit formation, explaining how habits work and how you can build good ones while breaking bad ones. Learn about the habit loop—cue, routine, reward—and discover practical strategies to create lasting change. Whether you want to exercise regularly, eat healthier, or quit procrastinating, this blog will guide you on your journey to self-improvement.  Understanding the science behind habit formation can empower you to take control of your habits and shape your life in a positive direction.  This blog provides actionable strategies and insights to help you break free from negative habits and cultivate positive ones that support your goals and well-being.",
-    "category": "Personal Growth & Self-Improvement",
+    "category": "Career & Productivity Motivation",
     "date_created": "2023-11-05",
     "author": "John Doe"
   },
@@ -85,7 +85,7 @@ const blogData=[
     "heading": "The Benefits of Solo Travel: Why You Should Explore the World Alone",
     "imgsrc": "https://images.unsplash.com/photo-1505832018823-50331d70d237",
     "details": "Solo travel is a transformative experience that allows you to discover yourself while exploring the world. This blog highlights the benefits of traveling alone, such as increased independence, self-confidence, and a deeper connection with new cultures. Learn how to plan a solo trip, stay safe, and make the most of your adventure. Whether you're a seasoned traveler or a first-timer, this blog will inspire you to take the leap and embark on a solo journey.  Solo travel can be a liberating and empowering experience.  It allows you to set your own pace, follow your own interests, and connect with yourself on a deeper level.  This blog provides practical tips and inspiration for those considering solo travel, encouraging them to embrace the adventure and discover the world on their own terms.",
-    "category": "Benefits of Tours",
+    "category": "Mental Health & Emotional Motivation",
     "date_created": "2023-11-10",
     "author": "Jane Smith"
   },
@@ -103,7 +103,7 @@ const blogData=[
     "heading": "The Power of Positive Thinking: How to Transform Your Life",
     "imgsrc": "https://images.unsplash.com/photo-1506126613408-eca07ce68773",
     "details": "Positive thinking is more than just a buzzword; it's a life-changing mindset. By focusing on the good in every situation, you can reduce stress, improve your mental health, and achieve your goals. This blog explores practical tips to cultivate positivity, such as practicing gratitude, surrounding yourself with supportive people, and reframing negative thoughts. Learn how to harness the power of positive thinking to transform your life and unlock your full potential.  Positive thinking isn't about ignoring the negative aspects of life; it's about acknowledging them without letting them control you. It's about finding the silver lining, learning from challenges, and maintaining hope for a brighter future.  Cultivating this mindset takes practice. Start by consciously shifting your focus from negative thoughts to positive ones.  When you catch yourself thinking negatively, challenge those thoughts and replace them with more positive and realistic alternatives.  Surround yourself with people who uplift you and believe in your potential.  Their positive energy will rub off on you and make it easier to maintain a positive outlook.  Remember, positive thinking is a journey, not a destination.  Be patient with yourself and celebrate your progress along the way.",
-    "category": "Personal Growth & Self-Improvement",
+    "category": "Career & Productivity Motivation",
     "date_created": "2023-10-01",
     "author": "John Doe"
   },
@@ -121,7 +121,7 @@ const blogData=[
     "heading": "The Importance of Physical Fitness for Mental Well-being",
     "imgsrc": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b",
     "details": "Physical fitness is not just about looking good; it's about feeling good too. This blog explores the connection between physical activity and mental well-being, highlighting how exercise can reduce stress, improve mood, and boost self-esteem. Learn how to incorporate fitness into your daily routine, even with a busy schedule. Whether you're a gym enthusiast or a beginner, this blog will inspire you to prioritize your health and well-being.",
-    "category": "Fitness & Health Motivation",
+    "category": "Mental Health & Emotional Motivation",
     "date_created": "2023-11-30",
     "author": "Sarah Wilson"
   },
@@ -157,7 +157,7 @@ const blogData=[
     "heading": "How to Set and Achieve SMART Goals",
     "imgsrc": "https://images.unsplash.com/photo-1497032628192-86f99bcd76bc",
     "details": "Setting goals is easy, but achieving them requires a clear plan. This blog introduces the SMART goal framework—Specific, Measurable, Achievable, Relevant, and Time-bound. Learn how to set realistic goals, track your progress, and stay motivated. Whether you're aiming for academic success, career growth, or personal development, this blog will help you turn your dreams into reality.  Setting SMART goals provides a roadmap for success, helping you break down your aspirations into manageable steps.  This blog provides practical examples and actionable strategies for setting and achieving your goals, empowering you to take control of your life and create the future you desire.",
-    "category": "Personal Growth & Self-Improvement",
+    "category": "Career & Productivity Motivation",
     "date_created": "2023-12-20",
     "author": "Jane Smith"
   },
@@ -175,7 +175,7 @@ const blogData=[
     "heading": "The Joy of Learning: How to Stay Curious and Keep Growing",
     "imgsrc": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b",
     "details": "Learning is a lifelong journey that keeps our minds sharp and our lives fulfilling. This blog shares tips on how to stay curious and embrace continuous learning, whether through books, online courses, or hands-on experiences. Discover the joy of learning something new every day and how it can enrich your personal and professional life. No matter your age or background, it's never too late to learn and grow.  Cultivating a love of learning is essential for personal and professional development.  This blog explores different learning styles, provides resources for lifelong learning, and encourages readers to embrace curiosity and explore new interests.",
-    "category": "Personal Growth & Self-Improvement",
+    "category": "Career & Productivity Motivation",
     "date_created": "2023-12-30",
     "author": "Emily Davis"
   },
@@ -193,7 +193,7 @@ const blogData=[
     "heading": "The Importance of Sleep for Student Success",
     "imgsrc": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55",
     "details": "Sleep is often overlooked, but it's essential for academic success and overall well-being. This blog explores the importance of sleep for memory, focus, and mental health. Learn how to improve your sleep quality by creating a bedtime routine, avoiding screens before bed, and managing stress. With better sleep, you can perform better in school and feel more energized throughout the day.  Getting enough sleep is crucial for students to function at their best.  This blog provides practical tips and strategies for improving sleep hygiene, helping students prioritize sleep and optimize their academic performance.",
-    "category": "Fitness & Health Motivation",
+    "category": "Mental Health & Emotional Motivation",
     "date_created": "2024-01-10",
     "author": "Sarah Wilson"
   },
@@ -238,7 +238,7 @@ const blogData=[
       "heading": "How to Build a Growth Mindset and Embrace Challenges",
       "imgsrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkmoxzVXC5mNl6XPP7S-Dsh-tdYWA7v1N7LQ&s", // Example image link
       "details": "A growth mindset is the belief that your abilities and intelligence can be developed through dedication and hard work. This blog explores the power of a growth mindset and how it can help you embrace challenges, persevere through setbacks, and achieve your full potential. Learn how to cultivate a growth mindset by focusing on learning and growth, viewing failure as an opportunity for improvement, and celebrating effort and persistence.  A growth mindset is not about denying your limitations; it's about believing in your capacity to learn and grow.  It's about embracing challenges as opportunities for development and viewing setbacks as valuable learning experiences.  This blog provides practical strategies for cultivating a growth mindset, such as reframing negative thoughts, focusing on the process rather than the outcome, and seeking out feedback and learning from others.  By adopting a growth mindset, you can unlock your potential, achieve your goals, and live a more fulfilling life.  It's about embracing the journey of learning and growth, knowing that your abilities are not fixed but can be developed over time with effort and dedication.  A growth mindset empowers you to take risks, step outside your comfort zone, and embrace new challenges with enthusiasm and a belief in your ability to succeed.  It's about viewing failure not as a reflection of your worth but as a valuable opportunity to learn and grow.",
-      "category": "Personal Growth & Self-Improvement",
+      "category": "Career & Productivity Motivation",
       "date_created": "2024-02-01",
       "author": "Jane Smith"
     },
@@ -256,7 +256,7 @@ const blogData=[
       "heading": "How to Find Your Passion and Purpose in Life",
       "imgsrc": "https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-4.0&ixid=M3yMDJBIiY3IiwicHBfaWQiOjEyMDd9&auto=format&fit=crop&q=80", // Example image link
       "details": "Finding your passion and purpose in life can be a lifelong journey. This blog explores the importance of discovering what truly motivates you and how it can lead to a more fulfilling and meaningful life. Learn how to identify your interests, explore different career paths, and connect with your values.  Discovering your passion is not just about finding a job you love; it's about aligning your life with your values and pursuing activities that bring you joy and fulfillment.  This blog offers guidance and inspiration for those seeking to find their purpose, encouraging them to explore their interests, connect with their values, and embrace the journey of self-discovery.  It's about finding what truly ignites your passion and pursuing it with dedication and enthusiasm.  This blog encourages readers to reflect on their experiences, explore different possibilities, and connect with their inner selves to discover their unique purpose.  It's a journey of self-discovery, exploration, and alignment with your authentic self, leading to a life filled with passion, purpose, and fulfillment.",
-      "category": "Personal Growth & Self-Improvement",
+      "category": "Career & Productivity Motivation",
       "date_created": "2024-02-10",
       "author": "Emily Davis"
     },
@@ -265,7 +265,7 @@ const blogData=[
       "heading": "The Benefits of Regular Exercise for Physical and Mental Health",
       "imgsrc": "https://www.theladders.com/wp-content/uploads/exercise-191001-800x450.jpg", // Example image link
       "details": "Regular exercise is essential for both physical and mental health. This blog explores the numerous benefits of physical activity, from improving cardiovascular health and boosting mood to reducing stress and increasing energy levels. Learn how to incorporate exercise into your daily routine, even with a busy schedule.  Exercise is not just about physical fitness; it's about overall well-being.  This blog provides tips and inspiration for making exercise a regular part of your life, highlighting the positive impact it can have on your physical and mental health.  From reducing the risk of chronic diseases to improving sleep quality, the benefits of regular exercise are undeniable.  It's about finding activities you enjoy and making movement a part of your daily routine, whether it's going for a walk, hitting the gym, or joining a sports team.  By prioritizing physical activity, you can improve your overall health, boost your mood, and increase your energy levels, leading to a happier and healthier life.",
-      "category": "Fitness & Health Motivation",
+      "category": "Mental Health & Emotional Motivation",
       "date_created": "2024-02-07",
       "author": "Alex Johnson"
     }

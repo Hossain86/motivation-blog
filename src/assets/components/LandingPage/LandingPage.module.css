@@ -5,18 +5,20 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
-  max-width: 1200px;
+  padding: 1rem;
   margin: 0 auto;
-  gap: 2rem;
+  gap: 1.5rem;
+  text-align: justify;
+  transition: 0.4s ease-in-out;
 }
 .content {
-  flex: 1;
+  flex: 1.2;
 }
 
 .content h1 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
 }
 
 .content p {
@@ -25,88 +27,50 @@
   line-height: 1.8;
 }
 
-.ctaButton {
-  background-color: #1e90ff;
-  color: #fff;
-  padding: 0.75rem 1.5rem;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.gamedetails{
-  text-align: justify;
-}
 .imageContainer {
   flex: 1;
   text-align: center;
 }
 
 .heroImage {
-  max-width: 100%;
+  max-width: 90%;
   height: auto;
   border-radius: 8px;
 }
 
-/* 🌟 Sticky Navbar */
-.navbarcontainer {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: var(--nav-bg);
-  color: var(--nav-text);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-}
 
-/* 🎮 Logo */
-.logo {
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-  color: inherit;
-  margin-left: 10px;
-}
-
-
-
-@media (max-width: 450px){
-  .navbarcontainer{
-    padding: 15px 5px;
-  }
-  .logo {
-    font-size: 12px;
-  }
-  .gameheader{
-    font-size: 1rem;
-  }
-  .darkmodetoggle {
-    padding: 0px 0px;
-    font-size: 12px;
-    width: 80px;
-    margin-right: 5px;
-    height: 25px;
-  }
-}
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 858px) {
   .landingSection {
-    flex-direction: column;
-    text-align: center;
+    margin-top: 80px;
+    flex-direction: column-reverse;
+    padding: 0px;
   }
-  .gameheader{
+  .content h1{
+    font-size: 1.2rem;
+  }
+  .content p{
     font-size: 1rem;
-  }
-  .gamedetails{
-    font-size: 0.8rem;
   }
   .content,
   .imageContainer {
-    width: 100%;
+    width: 70%;
+  }
+}
+@media (max-width: 450px){
+  .landingSection {
+    margin: 60px 0px 0px 0px;
+    flex-direction: column-reverse;
+    padding: 0px;
+  }
+  .content h1{
+    font-size: 1rem;
+  }
+  .content p{
+    font-size: 0.9rem;
+  }
+  .content,
+  .imageContainer {
+    width: 80%;
   }
 }

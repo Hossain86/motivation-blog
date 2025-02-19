@@ -2,12 +2,13 @@ import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./NavbarPage.module.css";
 
-const NavbarPage: React.FC = () => {
+interface NavbarPageProps {
+  setCategory: (category: string) => void;
+}
+
+const NavbarPage: React.FC<NavbarPageProps> = ({ setCategory }) => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
   const menuRef = useRef<HTMLDivElement>(null);
-
-
- 
 
   return (
     <nav className={styles.navbar} ref={menuRef}>
@@ -16,17 +17,32 @@ const NavbarPage: React.FC = () => {
       </div>
 
       <ul className={`${styles.navLinks} ${isMenuOpen ? styles.showMenu : ""}`}>
-        <li><Link to="/" onClick={() => setIsMenuOpen(false)}>🔖 Blog 📔</Link></li>
-        <li><Link to="/about-me" onClick={() => setIsMenuOpen(false)}>Career & Productivity</Link></li>
-        <li><Link to="/projects" onClick={() => setIsMenuOpen(false)}>Technology</Link></li>
-        <li><Link to="/education" onClick={() => setIsMenuOpen(false)}>Study Motivation</Link></li>
-        <li><Link to="/contact" onClick={() => setIsMenuOpen(false)}>Life</Link></li>
+        <li>
+          <Link to="/" onClick={() => { setCategory(""); setIsMenuOpen(false); }}>
+            🔖 Blog 📔
+          </Link>
+        </li>
+        <li>
+          <Link to="/blogs" onClick={() => { setCategory("Career & Productivity Motivation"); setIsMenuOpen(false); }}>
+            Career & Productivity
+          </Link>
+        </li>
+        <li>
+          <Link to="/blogs" onClick={() => { setCategory("Technology"); setIsMenuOpen(false); }}>
+            Technology
+          </Link>
+        </li>
+        <li>
+          <Link to="/blogs" onClick={() => { setCategory("Study Motivation"); setIsMenuOpen(false); }}>
+            Study Motivation
+          </Link>
+        </li>
+        <li>
+          <Link to="/blogs" onClick={() => { setCategory("Mental Health & Emotional Motivation"); setIsMenuOpen(false); }}>
+            Life
+          </Link>
+        </li>
       </ul>
-
-      {/* Dark Mode Toggle
-      <button className="dark-mode-toggle" onClick={toggleDarkMode}>
-        {darkMode ? "☀️ Light" : "🌙 Dark"}
-      </button> */}
     </nav>
   );
 };

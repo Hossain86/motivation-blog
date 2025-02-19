@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaStar, FaRegStar } from "react-icons/fa";
 import "./BlogDetails.css"; // Optional: create this file for styling
 
@@ -26,6 +26,11 @@ function BlogDetails({ blog }: Props) {
 
   // Rating state (0 to 5)
   const [rating, setRating] = useState<number>(0);
+  // 🆕 Scroll to top when the component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   if (!game) return <h2>Blog not found!</h2>;
 
   return (
@@ -36,12 +41,12 @@ function BlogDetails({ blog }: Props) {
 
       <img src={game.imgsrc} alt={game.heading} className="blog-img" />
       <h2 className="blog-header">{game.heading}</h2>
-      
+
       <p className="blog-details">{game.details}</p>
 
       {/* Extended Blog Information */}
       <div className="extended-info">
-      <p>
+        <p>
           <strong>Category:</strong> {game.category}
         </p>
         <p>
@@ -50,7 +55,6 @@ function BlogDetails({ blog }: Props) {
         <p>
           <strong>Author:</strong> {game.author}
         </p>
-        
       </div>
 
       {/* Rating System */}
@@ -71,7 +75,6 @@ function BlogDetails({ blog }: Props) {
         ))}
         {rating > 0 && <p>Your rating: {rating} / 5</p>}
       </div>
-
     </div>
   );
 }
