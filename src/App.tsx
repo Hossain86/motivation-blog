@@ -1,4 +1,3 @@
-import React from "react";
 import blogData from "./assets/components/BlogData";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./assets/components/LandingPage/LandingPage";
@@ -7,7 +6,7 @@ import "./App.css";
 import NavbarPage from "./assets/components/Navbar/NavbarPage";
 import BlogDetails from "./assets/components/fastpractice/BlogDetails";
 
-const App: React.FC = () => {
+function App() {
   return (
     <Router>
       <Routes>
