@@ -5,6 +5,7 @@ import LandingPage from "./assets/components/LandingPage/LandingPage";
 import Block from "./assets/components/fastpractice/Block";
 import NavbarPage from "./assets/components/Navbar/NavbarPage";
 import BlogDetails from "./assets/components/fastpractice/BlogDetails";
+import { Analytics } from "@vercel/analytics/react";
 import "./App.css";
 
 function App() {
@@ -17,40 +18,20 @@ function App() {
 
   return (
     <Router>
-      <Routes>
-        {/* Landing Page */}
-        <Route
-          path="/"
-          element={
-            <div className="app-container">
-              <NavbarPage setCategory={setSelectedCategory} />
-              <LandingPage />
-            </div>
-          }
-        />
+      <div className="app-container">
+        <NavbarPage setCategory={setSelectedCategory} />
+        <Routes>
+          {/* Landing Page */}
+          <Route path="/" element={<LandingPage />} />
 
-        {/* Blogs Page with Filtering */}
-        <Route
-          path="/blogs"
-          element={
-            <div className="app-container">
-              <NavbarPage setCategory={setSelectedCategory} />
-              <Block articles={filteredArticles} />
-            </div>
-          }
-        />
+          {/* Blogs Page with Filtering */}
+          <Route path="/blogs" element={<Block articles={filteredArticles} />} />
 
-        {/* Blog Details Page */}
-        <Route
-          path="/blog/:id"
-          element={
-            <div className="app-container">
-              <NavbarPage setCategory={setSelectedCategory} />
-              <BlogDetails blog={blogData} />
-            </div>
-          }
-        />
-      </Routes>
+          {/* Blog Details Page */}
+          <Route path="/blog/:id" element={<BlogDetails blog={blogData} />} />
+        </Routes>
+      </div>
+      <Analytics />
     </Router>
   );
 }

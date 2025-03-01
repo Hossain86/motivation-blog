@@ -21,6 +21,10 @@ function BlogDetails({ blog }: Props) {
   const { id } = useParams();
   const navigate = useNavigate();
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   // Find the selected game using the id from the URL
   const game = blog.find((g) => g.id === Number(id));
 

@@ -13,7 +13,7 @@ const NavbarPage: React.FC<NavbarPageProps> = ({ setCategory }) => {
   return (
     <nav className={styles.navbar} ref={menuRef}>
       <div className={styles.menuIcon} onClick={() => setIsMenuOpen(!isMenuOpen)}>
-        ☰
+        ☰ <small>Open</small>
       </div>
 
       <ul className={`${styles.navLinks} ${isMenuOpen ? styles.showMenu : ""}`}>

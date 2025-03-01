@@ -1,13 +1,11 @@
 import styles from "./LandingPage.module.css";
-import {  useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const LandingPage: React.FC = () => {
   const navigate = useNavigate();
-  
-  
+
   return (
     <div className={styles.LandingPageContainer}>
-
       {/* Landing Page Section */}
       <div className={styles.landingSection}>
         <div className={styles.content}>
@@ -18,10 +16,14 @@ const LandingPage: React.FC = () => {
             Are You Ready to Break Barriers and Achieve More? We all have
             dreams. Some seem impossible, some feel too distant, and some get
             lost in the noise of everyday life. The decision to keep pushing
-            forward, even when motivation fades. In this blog, we’ll dive into: <br />
-            ✅ The science of motivation—how to create unstoppable drive.<br /> ✅
-            Real-life stories of resilience and success that will inspire you.<br />
-            ✅ Practical strategies to overcome self-doubt and procrastination.<br />
+            forward, even when motivation fades. In this blog, we’ll dive into:{" "}
+            <br />
+            ✅ The science of motivation—how to create unstoppable drive.
+            <br /> ✅ Real-life stories of resilience and success that will
+            inspire you.
+            <br />
+            ✅ Practical strategies to overcome self-doubt and procrastination.
+            <br />
             ✅ The habits of high achievers and how you can implement them
             today. <br /> Let’s begin this journey together! 🚀🔥
           </p>
